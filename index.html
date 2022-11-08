@@ -4,7 +4,7 @@
 
  <HEAD>
 
-  <TITLE> New Document </TITLE>
+  <TITLE> Tim ne </TITLE>
 
   <META NAME="Generator" CONTENT="EditPlus">
 
@@ -515,7 +515,18 @@ var ParticlePool = (function() {
 })(document.getElementById('pinkboard'));
 
   </script>
+  <!-- add text -->
+  <canvas id="myCanvas">
+  </canvas>
 
+  <script>
+  var canvas = document.getElementById("myCanvas");
+  var ctx=canvas.getContext("2d");
+  ctx.font="bold 10px times new roman";
+  ctx.fillStyle = "pink";
+  ctx.textAlign = "center";
+  ctx.fillText("iu Trang", canvas.width/2, canvas.height/2);
+  </script>
  </BODY>
 
 </HTML>
